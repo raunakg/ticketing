@@ -1,7 +1,7 @@
 npm install cookie-session @types/cookie-session : typescript support cookie session
 
 
-kubectl create secret generic jwt-secret --from-literal JWT_KEY=asdf
+kubectl create secret generic jwt-secret --from-literal=JWT_KEY=asdf
 
 
 
@@ -32,3 +32,12 @@ Apache Avro
 
 Job run on worker server powerfull server
 Bull JS, Redis servere
+
+
+
+doctl
+doctl auth init
+doctl kubernetes cluster kubeconfig save ticketing
+kubectl get nodes
+kubectl config view
+kubectl config use-context docker-desktop // switch to local
