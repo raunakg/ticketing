@@ -1,0 +1,34 @@
+npm install cookie-session @types/cookie-session : typescript support cookie session
+
+
+kubectl create secret generic jwt-secret --from-literal JWT_KEY=asdf
+
+
+
+publish
+add to git and
+npm publish --access public
+
+
+npm install express express-validator cookie-session jsonwebtoken @types/c
+ookie-session @types/express @types/jsonwebtoken
+
+kubectl exec -it auth-depl-64dbf89544-6d6l7 sh
+
+
+nats
+npm install node-nats-streaming ts-node-dev typescript @types/node
+
+
+kubectl port-forward nats-depl-59fb66f4c5-6qbc8 4222:4222
+http://localhost:8222/streaming/channelsz?subs=1
+
+
+common modules
+alternative for cross language support
+JSON Schema
+Protobuf
+Apache Avro
+
+Job run on worker server powerfull server
+Bull JS, Redis servere
