@@ -1,7 +1,9 @@
 name: tests-auth
 
 on:
-  pull_request
+  pull_request: #just to run test on every pull
+    paths:
+      - 'auth/**'
   
 jobs:
   build:
